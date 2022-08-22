@@ -18,7 +18,7 @@ pipeline {
     }
   }
   post {
-   echo "do nothing" 
+    always { echo "do nothing" } // always or success or failure
   }
 }
     
