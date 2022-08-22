@@ -17,5 +17,8 @@ pipeline {
       }
     }
   }
+  post {
+   echo "do nothing" 
+  }
 }
     
